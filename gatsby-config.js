@@ -4,7 +4,7 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    siteTitle: `Gatsby WordPress V4 alpha Benchmark`,
+    siteTitle: `Gatsby WordPress V4 alpha Will it Build Benchmark`,
   },
   plugins: [
     `gatsby-plugin-benchmark-reporting`,
