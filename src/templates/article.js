@@ -9,7 +9,7 @@ const Article = ({ data: { article } }) => {
       <Link to="/">Go back to index page</Link>
       <div>
         <h2>{article.title}</h2>
-        {article.featuredImage.remoteFile.childImageSharp ? (
+        {article.featuredImage?.remoteFile?.childImageSharp ? (
           <Img fluid={article.featuredImage.remoteFile.childImageSharp.fluid} />
         ) : (
           <div>Image can't be displayed</div>
